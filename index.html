@@ -1,29 +1,5 @@
-<!--O que a página deve conter:
-
-CHECK    Título principal da página com seu nome e a frase do que você está estudando. 
-CHECK    Um parágrafo de introdução dizendo seu objetivo (que tipo de vaga você quer e até quando) e quantas horas por semana você vai dedicar.
-Uma seção "Minhas metas" com um título de nível 2 e uma lista ordenada com pelo menos 4 metas, em ordem de prioridade.
-Uma seção "Tecnologias que vou aprender" com título de nível 2 e uma lista não ordenada com pelo menos 6 tecnologias. Pelo menos uma delas deve ter uma lista aninhada dentro (exemplo: dentro de "JavaScript", uma sub-lista com "DOM", "assíncrono", "consumo de API").
-Uma seção "Glossário" com título de nível 2 e uma lista de descrição definindo, com suas próprias palavras, no mínimo 3 termos deste bloco (por exemplo: atributo, elemento vazio, semântica).
-Uma seção "Cronograma" com título de nível 2 e, dentro dela, pelo menos dois títulos de nível 3 (um por fase da trilha), cada um com um parágrafo.
-Em algum lugar do texto: pelo menos uma citação de uma frase que te motiva, usando o elemento de citação apropriado, e pelo menos um uso de ênfase semântica de importância.
-Um comentário no código explicando por que você escolheu a estrutura de títulos que escolheu.
-
-Critérios de aceitação (confira um por um antes de me mandar):
-
- O arquivo tem o esqueleto completo: tipo de documento, elemento raiz com idioma declarado como português do Brasil, região de metadados com codificação e título, e região de conteúdo.
- O título da aba do navegador mostra um texto que faz sentido — não "Documento" nem "index".
- Existe exatamente um título de nível 1 na página.
- Nenhum nível de título é pulado. Lendo só os títulos, de cima para baixo, você consegue entender a página inteira como um sumário.
- Acentos e cedilha aparecem corretamente no navegador (se aparecer "�", seu problema está nos metadados ou na codificação com que seu editor salvou o arquivo — investigue os dois).
- Os três tipos de lista aparecem, cada um usado pelo motivo certo.
- Nenhuma quebra de linha manual foi usada para criar espaçamento entre blocos.
- Você usou ênfase semântica, e consegue me explicar por que não usou a visual.
- O arquivo passa no validador oficial do W3C (validator.w3.org) sem nenhum erro e sem nenhum aviso. Este critério não é negociável — se der erro, leia a mensagem e conserte antes de me enviar.
- Você abriu a página no navegador, apertou F12 e localizou no inspetor um dos seus títulos de nível 2.-->
-
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,20 +8,138 @@ Critérios de aceitação (confira um por um antes de me mandar):
   <body>
     <header>
       <h1>João Pedro de Assunção Rego</h1>
-      <p>Desenvolvedor de Software e Estudante de Sistemas de Informação</p>
+      <p>Desenvolvedor de Software / Full Stack</p>
     </header>
 
     <main>
-      <article>
+      <section>
+        <h2>Quem sou eu</h2>
+        <p>
+          Olá, meu nome é <strong>João Pedro de Assunção Rego</strong>! Sou um
+          jovem apaixonado por programação, Botafogo de Futebol e Regatas (O
+          Glorioso), Academia e esportes de modo geral. Namoro a mulher mais
+          linda do mundo, Yanis. Sou formado em Técnico de Informática pelo
+          Instituto Federal do Rio de Janeiro (IFRJ) e, atualmente, curso
+          Sistemas de Informação na Universidade Federal Fluminense (UFF).
+        </p>
+      </section>
+
+      <section>
         <h2>Objetivo</h2>
         <p>
           Meu objetivo principal é me estabelecer no mercado como um
-          Desenvolvedor de Software/Full Stack em empresas como
-          Globo,PagBank,NuBank e, quem sabe um dia, Google. Dedicarei 5 a 10
-          horas semanais para este projeto, com objetivo de ter um portfolio
-          variado e que contribua para minha carreira.
+          Desenvolvedor de Software/Full Stack. Dedicarei 5 a 10 horas semanais
+          para este projeto, com objetivo de ter um portfolio variado e que
+          contribua para minha carreira.
         </p>
-      </article>
+      </section>
+
+      <section>
+        <h2>Minhas Metas</h2>
+        <p>Essas são as minhas próximas metas</p>
+        <ol>
+          <li>Elevar o Stack para Padrões de Engenharia Enterprise</li>
+          <li>Dominar Algoritmos e Estruturas de Dados para Entrevistas</li>
+          <li>Direcionar o Networking e a Visibilidade Técnica</li>
+          <li>Alinhar a Fluência em Inglês ao Contexto de Engenharia</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Minhas Tecnologias</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQL</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Tecnologias que vou aprender</h2>
+        <ul>
+          <li>React</li>
+          <li>
+            TypeScript
+            <ul>
+              <li>Lógica</li>
+              <li>TypeScript + React (tsx)</li>
+            </ul>
+          </li>
+          <li>Angular</li>
+          <li>NodeJs</li>
+          <li>Express</li>
+          <li>Vite</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Glossário</h2>
+        <dl>
+          <dt>Desenvolvedor de Software</dt>
+          <dd>
+            Profissional responsável por projetar, criar, testar e manter
+            sistemas, programas de computador e aplicativos
+          </dd>
+
+          <dt>Sistemas de Informação</dt>
+          <dd>
+            Sistemas de Informação usa a tecnologia como ferramenta ou meio para
+            solucionar problemas reais de empresas e organizações
+          </dd>
+
+          <dt>UFF (Universidade Federal Fluminense)</dt>
+          <dd>
+            Universidade Federal Fluminense, uma instituição pública de ensino
+            superior sediada em Niterói, no estado do Rio de Janeiro.
+          </dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>Cronograma</h2>
+        <h3>Fase 1: Fundamentos (HTML, CSS, lógica)</h3>
+        <p>
+          Fase de introdução, a qual manterei o foco em aprender totalmente o
+          básico e melhorar meu desenvolvimento desde a base.
+        </p>
+        <h3>Fase 2: JavaScript</h3>
+        <p></p>
+      </section>
     </main>
+    <footer>
+      <h2>Contato</h2>
+      <address>
+        <p>
+          email:
+          <a href="mailto:joaopedroassuncaorego@gmail.com"
+            >joaopedroassuncaorego@gmail.com</a
+          >
+        </p>
+        <p>
+          Linkedin:
+          <a
+            href="https://www.linkedin.com/in/joão-pedro-assunção-12339a303"
+            target="_blank"
+            >www.linkedin.com/in/joão-pedro-assunção-12339a303</a
+          >
+        </p>
+
+        <p>
+          Currículo:
+          <a
+            href="assets/Curriculo_Joao_Rego_Dev.pdf"
+            download="Curriculo_Joao_Rego"
+            >Curriculo_Joao_Rego</a
+          >
+        </p>
+      </address>
+    </footer>
+    <blockquote cite="https://www.bible.com/pt/bible/211/PSA.18.2.NTLH">
+      <p>
+        O SENHOR é a minha rocha, a minha fortaleza e o meu libertador. O meu
+        Deus é uma rocha em que me escondo. Ele me protege como um escudo; ele é
+        o meu abrigo, e com ele estou seguro.
+      </p>
+    </blockquote>
   </body>
 </html>
